@@ -1,0 +1,30 @@
+.block{
+    border: 1px solid rgba(215, 215, 215, 1);
+    border-radius: 15px;
+    font: 600 16px Inter;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 730px;
+    padding: 26px 44px;
+    & .title{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    & img{
+        width: 25px;
+        height: 25px;
+    }
+    }
+    .add{
+        display: flex;
+        gap:10px;
+        & button{
+            background-color:rgb(195, 196, 198);
+            border-radius: 5px;
+            max-width: 200px;
+            padding: 5px;
+        }
+    }
+}
